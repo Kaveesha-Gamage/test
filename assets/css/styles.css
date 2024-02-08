@@ -1,0 +1,203 @@
+.block-number {
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8125em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #191919;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+  .block-number:hover {
+    opacity: 1; }
+  .block-number::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 3px solid #191919; }
+  .block-number a:hover,
+  .block-number a:focus {
+    color: #191919; }
+
+.demo-section .main-content .section,
+.demo-topbar .main-content .topbar,
+.demo-navbar .main-content .navbar,
+.demo-header .main-content .header,
+.demo-footer .main-content .footer {
+  margin: 30px 20px 100px;
+  border: 1px solid #f5f6f7;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); }
+
+.demo-topbar .main-content .topbar,
+.demo-navbar .main-content .navbar {
+  position: static;
+  margin: 0; }
+
+.sample-blocks img {
+  border-radius: 0.25rem; }
+  .sample-blocks img.aos-animate {
+    opacity: 0.5 !important; }
+  .sample-blocks img:hover {
+    opacity: 1 !important;
+    -webkit-transition: 0.7s !important;
+    transition: 0.7s !important; }
+
+.sample-blocks a {
+  position: absolute; }
+
+.sample-blocks a:nth-child(1) {
+  -webkit-animation: wobble 4s infinite;
+          animation: wobble 4s infinite;
+  right: 15px;
+  bottom: -20px; }
+
+.sample-blocks a:nth-child(2) {
+  -webkit-animation: wobble 8s infinite;
+          animation: wobble 8s infinite;
+  right: 320px;
+  bottom: 30px; }
+
+.sample-blocks a:nth-child(3) {
+  -webkit-animation: wobble 5s infinite;
+          animation: wobble 5s infinite;
+  right: 0px;
+  bottom: 190px; }
+
+.sample-blocks a:nth-child(4) {
+  -webkit-animation: wobble 6s infinite;
+          animation: wobble 6s infinite;
+  right: 280px;
+  bottom: 180px; }
+
+.sample-blocks a:nth-child(5) {
+  -webkit-animation: wobble 9s infinite;
+          animation: wobble 9s infinite;
+  right: 270px;
+  bottom: 320px; }
+
+.sample-blocks a:nth-child(6) {
+  -webkit-animation: wobble 7s infinite;
+          animation: wobble 7s infinite;
+  right: 20px;
+  bottom: 370px; }
+
+.sample-blocks a:nth-child(7) {
+  -webkit-animation: wobble 5s infinite;
+          animation: wobble 5s infinite;
+  right: 200px;
+  bottom: 470px; }
+
+.sample-blocks a:nth-child(8) {
+  -webkit-animation: wobble 8s infinite;
+          animation: wobble 8s infinite;
+  right: 10px;
+  bottom: 470px; }
+
+.sample-blocks a:nth-child(9) {
+  -webkit-animation: wobble 9s infinite;
+          animation: wobble 9s infinite;
+  right: 0px;
+  bottom: 570px; }
+
+@-webkit-keyframes wobble {
+  0% {
+    -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+            transform: rotate(-1deg) translate(-5px, -5px); }
+  50% {
+    -webkit-transform: rotate(1deg) translate(5px, 5px);
+            transform: rotate(1deg) translate(5px, 5px); }
+  100% {
+    -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+            transform: rotate(-1deg) translate(-5px, -5px); } }
+
+@keyframes wobble {
+  0% {
+    -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+            transform: rotate(-1deg) translate(-5px, -5px); }
+  50% {
+    -webkit-transform: rotate(1deg) translate(5px, 5px);
+            transform: rotate(1deg) translate(5px, 5px); }
+  100% {
+    -webkit-transform: rotate(-1deg) translate(-5px, -5px);
+            transform: rotate(-1deg) translate(-5px, -5px); } }
+
+@media (max-width: 400px) {
+  body > .footer .social a:last-child,
+  body > .footer .nav a:last-child {
+    display: none; } }
+
+.btn-warning {
+  color: #fff;
+  background-color: #fbbc10;
+  border-color: #fbbc10;
+}
+
+.btn-warning:hover {
+  color: #fff;
+  background-color: #f1b103;
+  border-color: #f1b103;
+  box-shadow: 0 1px 10px rgba(251, 188, 16, 0.51);
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #34a853;
+  border-color: #34a853;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #2fcc4c;
+  border-color: #2fcc4c;
+  box-shadow: 0 1px 10px rgba(48, 204, 76, 0.44);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #4185f4;
+  border-color: #4185f4;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #2575f7;
+  border-color: #2575f7;
+  box-shadow: 0 1px 10px rgba(65, 132, 244, 0.59)
+}
+
+.sample-blocks a:nth-child(7) {
+  -webkit-animation: wobble 5s infinite;
+  animation: wobble 5s infinite;
+  right: 244px;
+  bottom: 454px;
+}
+
+.sample-blocks a:nth-child(8) {
+  -webkit-animation: wobble 8s infinite;
+  animation: wobble 8s infinite;
+  right: 23px;
+  bottom: 500px;
+}
+
+.header{
+  background-image: linear-gradient(-45deg, #667eea 0%, #764ba2 100%);
+}
+
+.demos-page .header{
+  background-image: linear-gradient(to top, #fcc5e4 0%, #fda34b 15%, #ff7882 35%, #c8699e 52%, #7046aa 71%, #0c1db8 87%, #020f75 100%);
+}
+
+section.community{
+  background-image: url(./../img/background/sri-lanka.jpg);
+}
+
+@media (max-width:767px){
+  .post-image{
+    position: relative !important;
+  }
+}

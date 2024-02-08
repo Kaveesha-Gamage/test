@@ -1,0 +1,11 @@
+[
+    {
+        "REQUEST_URI": "\/promote\/?ref=fb-20200207&ad=Search+Engine+Optimization+google+Seo",
+        "HTTP_USER_AGENT": "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/81.0.4044.9 Safari\/537.36",
+        "REMOTE_ADDR": "111.223.159.124",
+        "REQUEST_TIME": "2020-02-07 11:31:27",
+        "REQUEST_REF": "fb-20200207",
+        "REQUEST_FBCLID": null,
+        "REQUEST_AD": "Search Engine Optimization google Seo"
+    }
+]

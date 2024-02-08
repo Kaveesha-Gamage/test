@@ -1,0 +1,34 @@
+{
+    "home":{
+        "meta_description":"Deviitor is the best customized web applications, website design and development, a digital marketing company in Sri Lanka.",
+        "meta_keywords":"web applications, design, development, sri lanka",
+        "base_path":"/",
+        "page_title":"Web Applications / Website Design & Development in Sri Lanka"
+    },
+    "contact":{
+        "meta_description":"Deviitor is the best customized web applications, website design and development, a digital marketing company in Sri Lanka.",
+        "meta_keywords":"web applications, design, development, sri lanka",
+        "base_path":"/",
+        "page_title":"Contact | Web Applications / Website Design & Development in Sri Lanka"
+    },
+    "au/contact":{
+        "meta_description":"Deviitor is the best customized web applications, website design and development, a digital marketing company in Sri Lanka.",
+        "meta_keywords":"web applications, design, development, sri lanka",
+        "base_path":"/",
+        "page_title":"Contact | Web Applications / Website Design & Development in Sri Lanka"
+    },
+    "demos":{
+        "meta_description":"Awesome Website Templates From Deviitor Sri Lanka. Website Company Profiles, HTML templates, one page websites.",
+        "meta_keywords":"websites templates for, web applications, design, development, sri lanka",
+        "base_path":"/",
+        "page_title":"Demo Templates | HTML | WordPress | Drupal | Mobile | Applications Design & Development in Sri Lanka"
+    },
+    "terms":{
+        "base_path":"/",
+        "page_title":"Terms of Service - Deviitor (PVT) LTD"
+    },
+    "error-404":{
+        "base_path":"/",
+        "page_title":"404 | Page not found."
+    }
+}
